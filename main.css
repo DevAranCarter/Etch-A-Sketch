@@ -34,12 +34,5 @@ body {
     flex: 1;
 }
 
-#container > #incPix {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    max-height: 40px;
-    max-width: 70px;
-}
 
 
