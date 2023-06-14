@@ -6,6 +6,7 @@ createGrid(initialSize);
 
 let updatebtn = document.getElementById('incPix');
 let reset = document.getElementById('reset');
+let multicolor = document.getElementById('multicolor');
 
 reset.addEventListener("click", () => {
     location.reload();
@@ -35,8 +36,8 @@ updatebtn.addEventListener("click", updatePixels);
 
 function createGrid(size) {
 
-    let heightSize = (610 / (size - 1));
-    let widthSize = (610 / (size - 1));
+    let heightSize = 500 / size;
+    let widthSize = 500 / size;
 
 let divs = document.createElement('div');
 let innerDivs = document.createElement('div');
